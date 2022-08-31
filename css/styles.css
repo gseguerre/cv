@@ -4,7 +4,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
 }
 
 p {
@@ -14,16 +13,30 @@ p {
 }
 
 /* Nav Bar */
+.navbar {
+  background-color: #F5EDDC;
+}
+
 .nav-item {
-  padding: 0 18px;
+  padding: 0 20px;
 }
 
 /* Intro Section */
 #intro-section {
   background-color: #F5EDDC;
+  text-align: center;
+  padding: 3% 10% 6%;
+}
+
+.welcome-title {
+  font-weight: 900;
 }
 
 .profile-pic {
-  border-radius: 100%;
-  width: 30%;
+  width: 40%;
+}
+
+.intro-paragraph {
+  padding: 7% 15%;
+  text-align: center;
 }
